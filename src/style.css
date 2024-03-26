@@ -1,0 +1,32 @@
+/* <?php
+header("Content-type: text/css"); */
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+body {
+padding: 20px;
+background-color: #36393f;
+color: #dfdfdf;
+font-family: "Roboto Mono";
+font-size: 14px;
+line-height: 22px;
+margin: 0 auto;
+max-width: 960px;
+}
+
+pre {
+color: #6079aa;
+}
+
+img {
+border-radius: 13px;
+width: 50%;
+align-self: center;
+}
+
+div.parent {
+text-align: center;
+}
