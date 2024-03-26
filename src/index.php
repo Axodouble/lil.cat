@@ -56,7 +56,9 @@ function loadPage()
 
     <body>
         <div class="parent">
-            <h1>lil.cat</h1>
+            <a href="https://github.com/Axodouble/lil.cat">
+                <h1>lil.cat</h1>
+            </a>
             <img src="<?php echo $cat->url; ?>" alt="lil.cat">
         </div>
     </body>

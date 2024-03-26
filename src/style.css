@@ -27,6 +27,11 @@ width: 50%;
 align-self: center;
 }
 
+a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
 div.parent {
 text-align: center;
 }
