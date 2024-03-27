@@ -3,9 +3,10 @@ class catImage # Purely a class because I want to add the ability to add image c
 {
     public $url;
     public $description;
-    public function __construct($url)
+    public function __construct($url, $description)
     {
         $this->url = $url;
+        $this->description = $description;
     }
 }
 
@@ -69,7 +70,7 @@ function loadPage()
             <a href="https://github.com/Axodouble/lil.cat">
                 <h1>lil.cat</h1>
             </a>
-            <img src="<?php echo $cat->url; ?>" alt="lil.cat">
+            <img src="<?php echo $cat->url; ?>" alt="lil.cat"><br>
             <a><?php echo $cat->$description; ?></a>
         </div>
     </body>
