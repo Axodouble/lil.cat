@@ -71,7 +71,7 @@ function loadPage()
                 <h1>lil.cat</h1>
             </a>
             <img src="<?php echo $cat->url; ?>" alt="lil.cat"><br>
-            <a><?php echo $cat->$description; ?></a>
+            <a><?php echo $cat->description; ?></a>
         </div>
     </body>
 
