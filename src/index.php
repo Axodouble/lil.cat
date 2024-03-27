@@ -1,5 +1,5 @@
 <?php
-class catImage
+class catImage # Purely a class because I want to add the ability to add image credits in the future and to add titles for example.
 {
     public $url;
     public function __construct($url)
