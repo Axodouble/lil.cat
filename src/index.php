@@ -14,40 +14,32 @@ function getCat()
 {
     $cats = array(
         new catImage(
-            "https://www.marthastewart.com/thmb/g-FunKfdiZombJQ7pB4wb8BF4C8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cat-kitten-138468381-4cd82b91d7be45cb9f9aa8366e10bce4.jpg",
-            ""
+            "/img/ham_01.jpg",
+            "It was probably dark? Not sure how his pupils are so big."
         ),
         new catImage(
-            "https://d2zp5xs5cp8zlg.cloudfront.net/image-78806-800.jpg",
-            ""
+            "/img/ham_02.png",
+            "It appears he is hungry."
         ),
         new catImage(
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8ZSEWwF0rsqs4qiGRukSJewgQrvyChibZw&s",
-            ""
+            "/img/ham_sope_01.png",
+            "They were but 'wee lads."
         ),
         new catImage(
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hIoAk-gqzO5hesR1ghHAksOJ-y5CsJAfjg&s",
-            ""
+            "/img/ham_sope_02.png",
+            "They were but 'wee lads."
         ),
         new catImage(
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJCpCdWiUEXEM_XdSnqHcvfZkz3U5NOZLMQ&s",
-            ""
+            "/img/jinx_01.jpg",
+            "Courtesy of my Girlfriend, this wee ladd is Jinx."
         ),
         new catImage(
-            "https://media-be.chewy.com/wp-content/uploads/temperament_kittens_Nov_RR_SB_LC.jpg",
-            ""
+            "/img/sope_01.jpg",
+            "This is Sope, he is pretty shy but he is majestic as could be."
         ),
         new catImage(
-            "https://ahs.nyc3.cdn.digitaloceanspaces.com/live/public/styles/crop_16_9_960x540/public/media/image/2022-06/group-of-kittens.jpg?h=df37f6f0&itok=g3ayM11z",
-            ""
-        ),
-        new catImage(
-            "https://tenlives.com.au/wp-content/uploads/2020/09/Found-Kitten-0-8-Weeks-Quiet-scaled.jpg",
-            "My personal favorite."
-        ),
-        new catImage(
-            "https://d2zp5xs5cp8zlg.cloudfront.net/image-61209-800.jpg",
-            ""
+            "/img/sope_02.jpg",
+            "This is Sope, he is pretty shy but he is majestic as could be."
         ),
     );
     return $cats[array_rand($cats)];
@@ -60,7 +52,7 @@ function loadPage()
     <html>
 
     <head>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/style.php">
         <meta charset="UTF-8">
         <title>lil.cat</title>
     </head>
@@ -70,8 +62,8 @@ function loadPage()
             <a href="https://github.com/Axodouble/lil.cat">
                 <h1>lil.cat</h1>
             </a>
-            <img src="<?php echo $cat->url; ?>" alt="lil.cat"><br>
-            <a><?php echo $cat->description; ?></a>
+            <a><?php echo $cat->description; ?></a><br><br>
+            <img src="<?php echo $cat->url; ?>" alt="lil.cat">
         </div>
     </body>
 
