@@ -41,6 +41,10 @@ function getCat()
             "/img/sope_02.jpg",
             "This is Sope, he is pretty shy but he is majestic as could be."
         ),
+        new catImage(
+            "/img/zazu_01.png",
+            "This is Zazu, the black and white menace. Image supplied by <a href='https://stanro.chat'>Stan</a>."
+        )
     );
     return $cats[array_rand($cats)];
 }
@@ -59,14 +63,10 @@ function loadPage()
 
     <body>
         <div class="parent">
-            <a href="https://github.com/Axodouble/lil.cat">
-                <h1>lil.cat</h1>
-            </a>
-            <a><?php echo $cat->description; ?></a><br><br>
-            <img src="<?php echo $cat->url; ?>" alt="lil.cat">
+            <b><?php echo $cat->description; ?></b><br><br>
+            <a href="https://github.com/Axodouble/lil.cat"><img src="<?php echo $cat->url; ?>" alt="lil.cat"></a>
         </div>
     </body>
-
     </html>
 <?php
 }

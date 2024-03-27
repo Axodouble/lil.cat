@@ -28,14 +28,22 @@ color: #6079aa;
 
 img {
 border-radius: 13px;
-max-height: 50%;
-max-width: 80vh;
+max-height: 80vh;
+max-width: 50%;
 align-self: center;
 }
 
 a {
-color: #dfdfdf;
+color: #388bfd66;
 text-decoration: none;
+}
+
+a:hover {
+color: #388bfd99;
+}
+
+b {
+color: #dfdfdf;
 }
 
 div.parent {
