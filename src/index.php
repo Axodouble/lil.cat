@@ -5,7 +5,7 @@ class catImage # Purely a class because I want to add the ability to add image c
     public $description;
     public function __construct($url, $description)
     {
-        $this->url = $url;
+        $this->url = "https://github.com/Axodouble/lil.cat/blob/main/src"+$url+ "?raw=true";
         $this->description = $description;
     }
 }
@@ -54,19 +54,17 @@ function loadPage()
     $cat = getCat();
 ?>
     <html>
-
-    <head>
-        <link rel="stylesheet" href="/style.php">
-        <meta charset="UTF-8">
-        <title>lil.cat</title>
-    </head>
-
-    <body>
-        <div class="parent">
-            <b><?php echo $cat->description; ?></b><br><br>
-            <a href="https://github.com/Axodouble/lil.cat"><img src="<?php echo $cat->url; ?>" alt="lil.cat"></a>
-        </div>
-    </body>
+        <head>
+            <link rel="stylesheet" href="/style.php">
+            <meta charset="UTF-8">
+            <title>lil.cat</title>
+        </head>
+        <body>
+            <div class="parent">
+                <b><?php echo $cat->description; ?></b><br><br>
+                <a href="https://github.com/Axodouble/lil.cat"><img src="<?php echo $cat->url; ?>" alt="lil.cat"></a>
+            </div>
+        </body>
     </html>
 <?php
 }
