@@ -5,7 +5,7 @@ class catImage # Purely a class because I want to add the ability to add image c
     public $description;
     public function __construct($url, $description)
     {
-        $this->url = "https://github.com/Axodouble/lil.cat/blob/main/src"+$url+ "?raw=true";
+        $this->url = "https://github.com/Axodouble/lil.cat/blob/main/src" . $url . "?raw=true";
         $this->description = $description;
     }
 }
