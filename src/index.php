@@ -44,7 +44,23 @@ function getCat()
         new catImage(
             "/img/zazu_01.png",
             "This is Zazu, the black and white menace. Image supplied by <a href='https://stanro.chat'>Stan</a>."
-        )
+        ),
+        new catImage(
+            "/img/mickey_01.jpg",
+            "This is Mickey, the curious one."
+        ),
+        new catImage(
+            "/img/mickey_02.jpg",
+            "Mmmmmmmmmm."
+        ),
+        new catImage(
+            "/img/mickey_03.jpg",
+            "Hruhuhrgh."
+        ),
+        new catImage(
+            "/img/mickey_04.jpg",
+            "Zzzzzzzzzzzz."
+        ),
     );
     return $cats[array_rand($cats)];
 }
