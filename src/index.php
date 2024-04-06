@@ -15,19 +15,19 @@ function getCat()
     $cats = array(
         new catImage(
             "/img/ham_01.jpg",
-            "It was probably dark? Not sure how his pupils are so big."
+            "It was probably dark? Not sure how his pupils are so big. (In memory of Ham, who unfortunately passed away in 2024, 4th of April.)"
         ),
         new catImage(
             "/img/ham_02.png",
-            "It appears he is hungry."
+            "It appears he is hungry. (In memory of Ham, who unfortunately passed away in 2024, 4th of April.)"
         ),
         new catImage(
             "/img/ham_sope_01.png",
-            "They were but 'wee lads."
+            "They were but 'wee lads. (In memory of Ham, who unfortunately passed away in 2024, 4th of April.)"
         ),
         new catImage(
             "/img/ham_sope_02.png",
-            "They were but 'wee lads."
+            "They were but 'wee lads. (In memory of Ham, who unfortunately passed away in 2024, 4th of April.)"
         ),
         new catImage(
             "/img/jinx_01.jpg",
